@@ -1,9 +1,9 @@
 items = ['T-Shirt','Sweater']
 while True:
     choice = input('Welcome to our shop, what do you want (C, R, U, D)? ')
-    if choice == 'C':
+    if choice == 'R':
         print('Our items:',items)
-    elif choice == 'R':
+    elif choice == 'C':
         new_item = input('Enter new item: ')
         items.append(new_item)
         print('Our items:',items)
